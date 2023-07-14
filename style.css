@@ -11,6 +11,7 @@ body {
   background: #659dbd;
 }
 
+#todo-head,
 h1,
 span {
   color: #ebebeb;
@@ -29,6 +30,11 @@ hr {
   border-radius: 2px;
   width: 650px;
   margin-top: 10px;
+}
+
+#todo-line {
+  border: 2px solid #ebebeb;
+  width: 350px;
 }
 
 input {
@@ -63,10 +69,27 @@ button:hover {
   color: #ebebeb;
 }
 
+.content-container {
+  display: flex;
+  justify-content: space-between;
+}
+
 .input-container {
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
   margin: 70px 0 0 70px;
   width: 650px;
+}
+
+.todo-container {
+  display: flex;
+  flex-direction: column;
+  background: #6ea8ca;
+  width: 600px;
+  height: 850px;
+  margin: 70px 70px 0 0;
+  border: 5px solid #daad86;
+  border-radius: 20px;
+  padding: 20px 0 0 50px;
 }

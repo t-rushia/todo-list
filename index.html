@@ -8,14 +8,22 @@
   </head>
 
   <body>
-    <div class="input-container">
-      <h1>All the</h1>
-      <span>boring or fun</span>
-      <h1>things you should do today.</h1>
-      <hr />
-      <input type="text" placeholder="What should I do today?" />
-      <button id="input-btn">Submit</button>
-      <p id="suggestion-el"></p>
+    <div class="content-container">
+      <div class="input-container">
+        <h1>All the</h1>
+        <span>boring or fun</span>
+        <h1>things you should do today.</h1>
+        <hr />
+        <input type="text" placeholder="What should I do today?" />
+        <button id="input-btn">Submit</button>
+        <p id="suggestion-el"></p>
+      </div>
+
+      <div class="todo-container">
+        <h1 id="todo-head">To-Do List</h1>
+        <hr id="todo-line" />
+        <ul id="todo-list"></ul>
+      </div>
     </div>
 
     <script src="script.js"></script>
