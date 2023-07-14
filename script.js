@@ -25,13 +25,17 @@ refreshBtn.addEventListener("click", function () {
 submitBtn.addEventListener("click", function () {
   let suggestionText =
     suggestions[Math.floor(Math.random() * suggestions.length)];
+  if (inputText.value === "") {
+    alert("Please input a value");
+    return false;
+  }
   suggestionMessage.textContent = suggestionText;
   toDoItems.push(inputText.value);
   renderList();
 });
 
 function renderList() {
-  let listItems = "";
+  listItems = "";
   for (let i = 0; i < toDoItems.length; i++) {
     listItems += "<li>" + "- " + toDoItems[i] + "</li>";
     ulList.innerHTML = listItems;
