@@ -33,7 +33,7 @@ hr {
 }
 
 #todo-line {
-  border: 2px solid #ebebeb;
+  border: 2px solid #659dbd;
   width: 350px;
 }
 
@@ -69,6 +69,12 @@ button:hover {
   color: #ebebeb;
 }
 
+p {
+  color: #ebebeb;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
 .content-container {
   display: flex;
   justify-content: space-between;
@@ -89,7 +95,7 @@ button:hover {
   width: 600px;
   height: 850px;
   margin: 70px 70px 0 0;
-  border: 5px solid #daad86;
+  border: 5px solid #ebebeb;
   border-radius: 20px;
   padding: 20px 0 0 50px;
 }
