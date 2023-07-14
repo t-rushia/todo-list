@@ -18,6 +18,7 @@ const refreshBtn = document.querySelector("#refresh-btn");
 refreshBtn.addEventListener("click", function () {
   toDoItems = [];
   listItems = "";
+  suggestionMessage.textContent = "";
   ulList.innerHTML = "";
 });
 
