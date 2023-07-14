@@ -64,6 +64,10 @@ button {
   transition: ease 0.3s all 0s;
 }
 
+#refresh-btn {
+  margin-bottom: 20px;
+}
+
 button:hover {
   background: #bc986a;
   color: #ebebeb;
@@ -101,7 +105,6 @@ li {
   flex-direction: column;
   background: #6ea8ca;
   width: 600px;
-  height: 850px;
   margin: 70px 70px 0 0;
   border: 5px solid #ebebeb;
   border-radius: 20px;
