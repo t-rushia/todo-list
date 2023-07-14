@@ -5,7 +5,7 @@ const suggestions = [
   "okay but, does your car need an oil change?",
   "did you remember to pick the kids up from school or are they still waiting..",
   "did you leave the oven on before you left this morning?",
-  "maybe should see how the divorce case with your laywer is going?",
+  "maybe you should see how the divorce case with your laywer is going?",
   "wow well I guess you should get on that."
 ];
 let toDoList = document.querySelector("#todo-list");
