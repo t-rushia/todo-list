@@ -7,7 +7,9 @@
 }
 
 body {
-  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
   background: #659dbd;
 }
 
@@ -79,12 +81,33 @@ p {
   margin-top: 10px;
 }
 
+#footer-text {
+  font-size: 18px;
+  margin: 0;
+  font-family: sans-serif;
+}
+
 ul,
 li {
   list-style-type: none;
   line-height: 50px;
   color: #ebebeb;
   font-size: 24px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 65px;
+  gap: 5px;
+  margin-top: auto;
+  background: rgb(129, 129, 129);
+}
+
+img {
+  width: 20px;
+  height: 18px;
 }
 
 .content-container {
