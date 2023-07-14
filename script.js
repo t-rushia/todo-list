@@ -13,6 +13,13 @@ let suggestionMessage = document.querySelector("#suggestion-el");
 let inputText = document.querySelector("#input-text");
 let ulList = document.querySelector("#todo-list");
 const submitBtn = document.querySelector("#input-btn");
+const refreshBtn = document.querySelector("#refresh-btn");
+
+refreshBtn.addEventListener("click", function () {
+  toDoItems = [];
+  listItems = "";
+  ulList.innerHTML = "";
+});
 
 submitBtn.addEventListener("click", function () {
   let suggestionText =
@@ -25,7 +32,7 @@ submitBtn.addEventListener("click", function () {
 function renderList() {
   let listItems = "";
   for (let i = 0; i < toDoItems.length; i++) {
-    listItems += "<li>" + toDoItems[i] + "</li>";
+    listItems += "<li>" + "- " + toDoItems[i] + "</li>";
     ulList.innerHTML = listItems;
   }
 

@@ -75,6 +75,14 @@ p {
   margin-top: 10px;
 }
 
+ul,
+li {
+  list-style-type: none;
+  line-height: 50px;
+  color: #ebebeb;
+  font-size: 24px;
+}
+
 .content-container {
   display: flex;
   justify-content: space-between;
